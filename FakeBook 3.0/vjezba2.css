@@ -1,0 +1,59 @@
+header {
+    width: auto;
+    height: 350px;
+    padding: 1em;
+    color: blue;
+    background-color: #FAEBD7;
+    font-family: 'Rammetto One', cursive;
+    font-size: 30px;
+    }
+footer {
+        width: auto;
+        position: relative;
+        top: 550px;
+        height: 30px;
+        padding: 1em;
+        color: blue;
+        background-color: #FAEBD7;
+        text-align: left;
+        font-family: 'Rammetto One', cursive;
+        font-size: 20px;
+        }
+body {
+  padding: 1em;
+  color: black;
+  background-color:  	#00CED1;
+  text-align: margin-left;
+  font-family: 'Rammetto One', cursive;
+  font-size: 15px;
+  color: white;
+  }
+
+.tekstHeader {
+  position: absolute;
+  left: 400px;
+  top: 50px;
+    }
+
+.slides {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    }
+
+.info {
+  position: absolute;
+  left: 500px;
+  top: 450px;
+  border-left: 2px solid black;
+    }
+.Newsfeed {
+  position: absolute;
+  left: 00px;
+  top: 450px;
+  height: 200px;
+  width: 200px;
+   ;
+  background-repeat: no-repeat;
+  background-size:cover;
+}

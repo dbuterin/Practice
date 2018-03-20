@@ -1,0 +1,61 @@
+header {
+    width: auto;
+    height: 300px;
+    position: relative;
+    padding: 1em;
+    color: blue;
+    background-color: gray;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    }
+footer {
+        width: auto;
+        position: relative;
+        top: 550px;
+        height: 30px;
+        padding: 1em;
+        color: blue;
+        background-color: gray;
+        text-align: left;
+        font-family: 'VT323', monospace;
+        font-size: 20px;
+
+        }
+body {
+
+  padding: 1em;
+  color: black;
+  background-color: darkgray;
+  text-align: margin-left;
+  font-family: 'VT323', monospace;
+  font-size: 15px;
+  color: white}
+
+}
+.tekstHeader {
+  position: absolute;
+  left: auto;
+    }
+
+.slides {
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    border: 5px solid white;
+    }
+
+.info {
+  position: absolute;
+  left: 0px;
+  top: 450px;
+    }
+.Newsfeed {
+  position: absolute;
+  left: 500px;
+  top: 450px;
+  height: 200px;
+  width: 200px;
+  border-left: 2px solid black ;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
