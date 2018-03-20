@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+         Fakebook
+      </title>
+      <meta charset="UTF-8">
+      <meta name="Homework" content="Fakebook assignment as homework">
+      <meta name="keywords" content="homework,social page,fake">
+      <meta name="author" content="Davor Buterin">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    </head>
+  <header>
+    <table>
+      <tr>
+        <td>
+          <div style="text-align:Top">
+              <h1>Fakebook</h1>
+              My own personal social page
+            </div>
+        </td>
+
+        <td>
+          <div class="slideshow-container">
+           <div class="mySlides fade">
+             <img src="https://scontent.fzag3-1.fna.fbcdn.net/v/t1.0-0/p206x206/12108119_10153683152441252_5904807542439774024_n.jpg?oh=b2a7dfe71bd5dc510b21710e16627989&oe=5B26013E"
+               style="width:100%" width="50" height="260">
+           </div>
+
+           <div class="mySlides fade">
+             <img src="https://scontent.fzag3-1.fna.fbcdn.net/v/t1.0-9/11898582_10153578982581252_4116675781178475630_n.jpg?oh=758aa4f192387a8fadc09d794dddc9a7&oe=5AE09144"
+             style="width:100%" width="100" height="260">
+           </div>
+
+           <div class="mySlides fade">
+             <img src="https://scontent.fzag3-1.fna.fbcdn.net/v/t1.0-9/23621620_10155908925856252_8015173955374171397_n.jpg?oh=5565f14726d50a5df177f1a900095a23&oe=5B23A9B6"
+              style="width:100%" width="50" height="260">
+           </div>
+          </div>
+            <br>
+          <div style="text-align:left">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        for (i = 0; i < slides.length; i++) {
+                           slides[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) {slideIndex = 1}
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex-1].style.display = "block";
+                        dots[slideIndex-1].className += " active";
+                        setTimeout(showSlides, 2000); // Change image every 2 seconds
+                    }
+                </script>
+      </td>
+      </tr>
+    </table>
+
+
+  </header>
+<table>
+  <TR>
+    <td>
+      <body>
+        <ul>
+          <h1><u><i>Davor Buterin</i/></h1></u>
+          <li><i>Search</i>        <input type="text"></li>
+          <br>
+          <li><a href="https://github.com/dbuterin">About me</a></li>
+          <br>
+          <li><b>City:</b> Zagreb</li>
+          <br>
+          <li><b>Age:</b> 33</li>
+          <br>
+          <li><b>Education:</b> No school</li>
+          <br>
+          <li><b>FKB Friends:</b> 0</li>
+          <br>
+          <button><b><u>Add as friend</u></b></button>
+        </ul>
+      </body>
+    </td>
+    <td>
+      <article>
+        <h1><u>Newsfeed</h1></u>
+        <p class= "slika">
+
+          
+
+      </article>
+    </td>
+  </TR>
+  </table>
+    <footer>Copyright &copy; Davor @ SmartNinja</footer>
