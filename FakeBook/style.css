@@ -1,0 +1,68 @@
+body{
+    font-size: 20px;
+  color: #333;
+  font-family: 'Sedgwick Ave', cursive;
+  background-color: gray;
+}
+/* ovo se odnosi na boje */
+#zeleno{
+  color: #00ff00;
+}
+.plavo{
+  color: rgb(0,0,255);
+  background-color: rgba(255,0,0,0.5)
+}
+nav .plavo{
+  font-weight: 900;
+}
+
+.slika {
+  background-image: url("https://i2.wp.com/bitsandpieces.us/wp-content/uploads/2016/09/Psycho-The-Rapist.jpg?resize=560%2C560");
+  height: 200px;
+  width: 200px;
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+header, footer {
+    padding: 1em;
+    color: black;
+    background-color: #3366ff;
+    clear: left;
+    text-align: margin-left;}
+body {
+        margin-left: 0px;
+        background-color: #6699ff;
+        border-left: 1px solid gray;
+        padding: 1em;s
+        overflow: hidden;
+    }
+  article {
+    background-color: #6699ff;
+      margin-left: 170px;
+      border-left: 1px solid darkgray;
+      padding: 1em;
+      overflow: hidden;
+  }
+
+
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;            }
+    .active {
+        background-color: #717171;}
+
+table, th, td {
+  border: 1000px ;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;}
